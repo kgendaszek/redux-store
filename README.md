@@ -10,9 +10,16 @@
 
 ## **Description**
 
+A shopping site refactored to use with redux.
+
 ## **Installation**
 
+MongoDb, Redux, Stripe.
+
 ## **Usage**
+
+User can use this site to place orders for a variety of different products.
+
 
 ## **Contributing**
 
@@ -20,18 +27,19 @@
 
 
 ## **Questions**
+
 Please contact me at Katieshake27@gmail.com with any questions.
 
 Visit my gitHub page at https://github.com/kgendaszek!
 
 ## **Website**
 
-![Screen shot of portfolio project page](./src/images/react-port.png)
+![Screen shot](redux.jpg)
 
 
 Deployed on Heroku:
 
-https://redux-store-refactor-kg.herokuapp.com/
+https://reduxstore-kg.herokuapp.com/
 
 GitHub Repo:
 
