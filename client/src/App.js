@@ -8,11 +8,8 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
-// TODO:
-//  import Provider from 'react-redux with object destructure
+
 import { Provider } from 'react-redux';
-// TODO:
-//  import store from './utils/store'
 import store from './utils/store';
 
 import Home from './pages/Home';
@@ -48,10 +45,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          {/*
-              TODO: Wrap components with Provider imported from 'react-redux'
-              and create attribute 'store' assigned with store imported from store.js
-          */}
+          
           <Provider store={store}>
             <Nav />
             <Switch>
