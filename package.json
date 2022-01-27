@@ -18,5 +18,8 @@
   },
   "engines": {
     "npm": "7.x"
+  },
+  "dependencies": {
+    "dotenv": "^14.3.2"
   }
 }
